@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="the.movees.app.FirstSplash"
-    android:background="#2f3133">
+    android:background="#000000">
 
     <TextView
         android:layout_width="wrap_content"
