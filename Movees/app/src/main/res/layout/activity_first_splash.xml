@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="the.movees.app.FirstSplash"
-    android:background="#000000">
+    android:background="#2f3133">
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,5 +14,27 @@
         android:textColor="#ffffff"
         android:text="@string/illesttext"
         android:id="@+id/top_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:text="@string/kool_apps"
+        android:layout_below="@+id/top_text"
+        android:id="@+id/bottom_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:text="@string/presents"
+        android:layout_below="@+id/bottom_text"
+        android:id="@+id/presents"
+        />
 
 </RelativeLayout>
